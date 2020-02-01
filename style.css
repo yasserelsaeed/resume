@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  background: white;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 42px 32px;
+  background: white;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+a {
+  color: #323232;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+i{
+margin-left: 8px;
+margin-right: 4px;
+}
+.small-txt{
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+/* styling */
+header{
+  margin-bottom: 12px;
+}
+.my-name {
+  font-size: 34px;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+.my-title {
+  font-size: 18px;
+  font-weight: 300;
+  color: #236FB2;
+
+}
+
+.basic-info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+
+.link{
+  margin: 3px 0;
+}
+
+.contact-links{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pro-links{
+  display: flex;
+  justify-content: space-evenly;
+  background: #eee;
+}
+
+
+section {
+  display: grid;
+  grid-template-columns: 3fr 15fr;
+  grid-gap: 12px;
+  padding-top: 12px;
+  border-bottom: 1px solid #e1e1e1;
+}
+section:last-child{
+  border-bottom: none;
+}
+.main-title{
+  font-size: 18px;
+  font-weight: 300;
+  color: #236FB2;
+/* width: 120px; */
+padding-top: 10px;
+}
+
+.job {
+  padding: 8px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.job:last-child {
+  border-bottom: none;
+}
+
+.job-top{
+  display: flex;
+  justify-content: space-between; 
+}
+
+
+.job-title-container {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.description{
+  font-size: 14px;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+
+
+
+.courses-gpa{
+  display: flex;
+  justify-content: space-between;
+}
+#gpa{
+  color: #236FB2;
+}
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 14px;
+
+}
+ul {
+  margin-left: 14px;
+  list-style-type: disc;
+  margin-top:6px;
+  margin-bottom: 16px;
+}
+ul li{
+  padding: 1px 0;
+}
+
+.date-gpa{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* projects */
+
+.project-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+
+
+.project-name {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.tech-used{
+
+  text-align: right;
+  color: #236FB2;
+}
+
